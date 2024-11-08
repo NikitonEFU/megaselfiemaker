@@ -78,7 +78,7 @@ class MainActivity : Activity() {
             type = "image/jpeg"
             putExtra(Intent.EXTRA_EMAIL, arrayOf("hodovychenko@op.edu.ua"))
             putExtra(Intent.EXTRA_SUBJECT, "DigiJED Блащенко Нікіта")
-            putExtra(Intent.EXTRA_TEXT, "гитгитгит за шагит")
+            putExtra(Intent.EXTRA_TEXT, "https://github.com/NikitonEFU/megaselfiemaker.git")
             putExtra(Intent.EXTRA_STREAM, photoUri)
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
         }
